@@ -1,4 +1,4 @@
-# Math-magician
+# WILSAN NJI
 <a name="readme-top"></a>
 
 <div align="center">
@@ -34,10 +34,6 @@
 
 This is my first Micronaut React project. Some complex coding is required for this exercise. The goal is to master all of the tools and best practices. 
 
-![Preview Image](Images/preview.png)
-
-
-
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -68,8 +64,7 @@ This is my first Micronaut React project. Some complex coding is required for th
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](Coming soon)
-- [Live Demo]()
+- [Live Demo](https://Wils-FOURR-speed.github.io/math-magician/)
 
 <p align="right">(<a href="#">back to top</a>)</p>
 
