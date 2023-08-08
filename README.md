@@ -21,8 +21,6 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
   - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -103,24 +101,6 @@ Clone this repository to your desired folder:
 
 git clone https://github.com/Wils-FOURR-speed/math-magician.git
 
-### Install
-
-Install this project with:
-
-Run this command:
-
-...sh
-  cd my-project
-  npm install
-  ...
-
-
-### Usage
-
-To run the project, execute the following command:
-
-Example command:
-Open the index.html using live server.
 
 ### Run tests
 
