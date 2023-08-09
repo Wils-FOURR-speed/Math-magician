@@ -1,27 +1,90 @@
-body {
-  margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --primary: rgb(255, 166, 0);
+  --secondary: rgba(122, 116, 116, 0.689);
+  --dark: rgb(112, 94, 94);
+  --light: #eee;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.calculator {
+  background-color: var(--light);
+  overflow: hidden;
+  width: 100%;
+  min-width: 400px;
+  border-radius: 1px;
+}
+
+.resultScreen {
+  padding: 16px;
+  text-align: right;
+  background-color: var(--secondary);
+  color: var(--light);
+  font-size: 30px;
+  font-weight: 400;
+}
+
+button {
+  outline: none;
+  font-size: 14px;
+  font-weight: 900;
+  padding: 16px;
+  cursor: pointer;
+  border: 1px solid rgb(231, 222, 222);
+  appearance: none;
+  color: var(--dark);
+  transition: 0.2s;
+}
+
+button:hover {
+  opacity: 0.9;
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+.buttonSet1,
+.buttonSet2,
+.buttonSet3,
+.buttonSet4 {
+  display: flex;
+}
+
+.buttonSet1 button,
+.buttonSet2 button,
+.buttonSet3 button,
+.buttonSet4 button {
+  flex: 1 1 0%;
+}
+
+.buttonSet5 {
+  display: flex;
+}
+
+.buttonSet5 button {
+  flex: 1;
+}
+
+button:hover:active {
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+.bigger {
+  padding: 0 66px;
+}
+
+.operatorBtn {
+  background-color: var(--primary);
+  color: var(--dark);
 }
