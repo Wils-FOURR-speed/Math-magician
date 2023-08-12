@@ -1,9 +1,15 @@
 import CalcDisplay from './Components/calculator';
+import ShowQuotes from './Components/quote';
 
 function App() {
   return (
     <div className="App">
-      <CalcDisplay />
+      <div className="main">
+        <CalcDisplay />
+      </div>
+      <div className="main">
+        <ShowQuotes />
+      </div>
     </div>
   );
 }
