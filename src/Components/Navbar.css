@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(104, 101, 101);
+  gap: 30rem;
+  min-height: 70px;
+  align-items: center;
+}
+
+.left {
+  padding-left: 300px;
+  font-size: 30px;
+}
+
+.left h1 {
+  color: aqua;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+h2 {
+  color: rgba(44, 237, 10, 0.637);
+  text-decoration: none;
+}

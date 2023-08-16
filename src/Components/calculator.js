@@ -14,6 +14,9 @@ function CalcDisplay() {
 
   return (
     <div className="App">
+      <div className="welcome">
+        <p>Do your Arithmetics here. 👇</p>
+      </div>
       <div className="calculator">
         <div className="resultScreen">
           <p>{displayInput.next || displayInput.operation || displayInput.total || '0'}</p>
