@@ -27,7 +27,7 @@ function ShowQuotes() {
   }, []);
 
   if (isLoading) {
-    return <p>Loading...</p>;
+    return <p className="load">Loading...🤔</p>;
   }
 
   if (error) {

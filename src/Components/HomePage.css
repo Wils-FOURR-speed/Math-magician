@@ -1,0 +1,22 @@
+.home {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.home h1 {
+    font-size: 150px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.intro {
+    padding-top: 250px;
+}
+
+.intro p {
+    font-size: 45px;
+    padding-top: 10px;
+    padding-left: 70px;
+    text-align: center;
+
+}

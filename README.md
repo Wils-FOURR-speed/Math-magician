@@ -64,7 +64,7 @@ This is my first Micronaut React project. Some complex coding is required for th
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://Wils-FOURR-speed.github.io/math-magician/)
+- [Live Demo](https://wils-fourr-speed.github.io/math-magician/)
 
 <p align="right">(<a href="#">back to top</a>)</p>
 
