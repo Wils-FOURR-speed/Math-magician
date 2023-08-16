@@ -1,16 +1,14 @@
 nav {
   display: flex;
   flex-direction: row;
-
-  /* justify-content: space-between; */
-  background-color: rgb(45, 42, 42);
-  gap: 80rem;
+  background-color: rgb(104, 101, 101);
+  gap: 30rem;
   min-height: 70px;
   align-items: center;
 }
 
 .left {
-  padding-left: 50px;
+  padding-left: 300px;
   font-size: 30px;
 }
 
