@@ -13,9 +13,9 @@
 }
 
 body {
-  background-repeat: no-repeat;
-  min-height: 100vh;  
   background: linear-gradient(90deg, rgba(67, 67, 238, 0.767), rgba(228, 75, 75, 0.938), orange);
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 .App {
