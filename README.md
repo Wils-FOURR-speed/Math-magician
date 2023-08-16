@@ -61,6 +61,12 @@ This is my first Micronaut React project. Some complex coding is required for th
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo](https://maths-magicians-1m4g.onrender.com/)
+
+<p align="right">(<a href="#">back to top</a>)</p>
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
