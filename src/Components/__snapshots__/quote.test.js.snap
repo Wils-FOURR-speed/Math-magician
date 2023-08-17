@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShowQuotes renders correctly 1`] = `
+<p
+  className="load"
+>
+  Loading...🤔
+</p>
+`;
